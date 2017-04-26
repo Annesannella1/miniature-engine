@@ -1,0 +1,23 @@
+ 
+body{
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+  
+
+.hero {
+	font-size: 32px;
+	font-family: Palatino, 'Palatino Linotype', serif;
+    color: #666666;
+}
+ 
+.hero1 {
+	font-size: 26px;
+	font-family: Palatino, 'Palatino Linotype', serif; 
+    color: #6666666
+}
+
+
+
