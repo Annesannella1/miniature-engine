@@ -1,1 +1,2 @@
-
+source:      _source
+destination: _deploy
