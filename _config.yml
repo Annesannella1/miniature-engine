@@ -1,2 +1,3 @@
 source:      _source
 destination: _deploy
+image: miniature-engine/Anne Sannella.png
