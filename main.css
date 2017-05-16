@@ -7,7 +7,8 @@ body{
 	background-color: #42a1a1
 }
 p {
-      font-size: 22px;
+      font-size: 22px;font-family: Palatino, 'Palatino Linotype', serif;
+      color: #666666
     }
     input {
       border: 0;
