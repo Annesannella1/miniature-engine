@@ -13,10 +13,13 @@ p {
       border: 0;
       padding: 10px;
       font-size: 18px;
+      font-family: Palatino, 'Palatino Linotype', serif;
+      color: #666666	    
+	    
     }
     input[type="submit"] {
-      background: red;
-      color: white;
+      background: ##42a1a1;
+      color: #666666;
     }  
 
 .hero {
