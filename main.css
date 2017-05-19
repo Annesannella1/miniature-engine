@@ -9,13 +9,13 @@ body{
  
 .hero {
 	font-size: 32px;
-	font-family: Palatino, 'Palatino Linotype', serif;
+	font-family: Roboto, 'sans-serif';
     color: #666666
 }
  
 .hero1 {
 	font-size: 26px;
-	font-family: Palatino, 'Palatino Linotype', serif; 
+	font-family: Roboto, 'sans-serif'; 
     color: #666666
 	
 }
@@ -23,7 +23,7 @@ body{
       border: 0;
       padding: 10px;
       font-size: 18px;
-      font-family: Palatino, 'Palatino Linotype', serif;
+      font-family: Roboto, 'sans-serif';
       color: #666666	    
 	    
     }
