@@ -2,8 +2,10 @@
 
 body{
 	color:#414141;
-	background:url('Anne Sannella.png') transparent;
+	background:url('Anne Sannella.png') ;
 	background-size:cover;
+	background-size: auto 100%;
+        background-repeat: no-repeat;
 		
 }
  
