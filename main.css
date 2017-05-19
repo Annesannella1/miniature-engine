@@ -10,11 +10,11 @@ body{
 }
  
 .hero {
-	margin:0;
-	padding:0;
+	margin:20;
+	padding:10;
 	box-sizing:border-box;
 	font-size: 32px;
-	font-family: "Roboto", sans-serif;
+	font-family: "Megrim", cursive;
     color: #666666
 }
  
