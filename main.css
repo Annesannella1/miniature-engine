@@ -1,8 +1,4 @@
-header {
-	margin:0;
-	padding:0;
-	box-sizing:border-box;
-}
+
 
 body{
 	color:#414141;
@@ -14,6 +10,9 @@ body{
 }
  
 .hero {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
 	font-size: 32px;
 	font-family: "Roboto", sans-serif;
     color: #666666
