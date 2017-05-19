@@ -1,7 +1,10 @@
- 
+*{margin:0; padding:0; box-sizing:border-box;}
+
 body{
 	height: 100%;
 	margin: 0;
+	background:url('../Anne Sannella.png') no-repeat fixed;
+	background-size:cover;
 	text-align: center;
 	width: 100%;
 	background-color: #42a1a1
