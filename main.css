@@ -15,6 +15,7 @@ body{
 }
  
 .hero1 {
+	text-align: left;
 	font-size: 26px;
 	font-family: "Megrim", cursive; 
     color: #666666
