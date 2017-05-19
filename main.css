@@ -6,7 +6,7 @@ body{
 	background-size: auto 100%;
         background-repeat: no-repeat;
 	background-position: left top;
-	text-align: left;
+	
 	
 }
  
@@ -14,12 +14,15 @@ body{
 	font-size: 32px;
 	font-family: "Megrim", cursive;
     color: #666666
+   	    
 }
  
 .hero1 {
+	text-align: right;
 	font-size: 26px;
 	font-family: "Megrim", cursive; 
         color: #666666
+		
 	
 }
     input {
