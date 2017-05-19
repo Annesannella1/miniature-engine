@@ -1,4 +1,4 @@
-*{margin:0; padding:0; box-sizing:border-box;}
+{margin:0; padding:0; box-sizing:border-box;}
 
 body{
 	height: 100%;
@@ -7,18 +7,18 @@ body{
 	background-size:cover;
 	text-align: center;
 	width: 100%;
-	background-color: #42a1a1
+	
 }
  
 .hero {
 	font-size: 32px;
-	font-family: Roboto, 'sans-serif';
+	font-family: "Roboto", sans-serif;
     color: #666666
 }
  
 .hero1 {
 	font-size: 26px;
-	font-family: Roboto, 'sans-serif'; 
+	font-family: "Roboto", sans-serif; 
     color: #666666
 	
 }
@@ -26,7 +26,7 @@ body{
       border: 0;
       padding: 10px;
       font-size: 18px;
-      font-family: Roboto, 'sans-serif';
+      font-family: "Roboto", sans-serif;
       color: #666666	    
 	    
     }
