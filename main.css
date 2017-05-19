@@ -5,12 +5,11 @@ body{
 	background:url('Anne Sannella.png') ;
 	background-size: auto 100%;
         background-repeat: no-repeat;
-	background-size:cover;
+	
 		
 }
  
 .hero {
-	padding-bottom: 50px;
 	font-size: 32px;
 	font-family: "Megrim", cursive;
     color: #666666
