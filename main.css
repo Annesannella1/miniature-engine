@@ -2,7 +2,7 @@
    header {
       text-align: center;
       background: url("https://annesannella1.github.io/miniature-engine//Anne Sannella.png");
-      background-size: cover;
+      background-size: auto 50%;
       color: yellow;
     }
     a {
