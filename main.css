@@ -30,10 +30,11 @@
       max-width: 500px;
       padding: 20px;
       margin: 0 auto;
+	font-family: "Megrim", cursive;     
     }
     @media (max-width: 500px) {
       h1 {
-	font-family: "Megrim", cursive;     
+	    
         font-size: 36px;
 	     
         padding: 5px;
