@@ -10,6 +10,7 @@
     }
     h1 {
       font-size: 70px;
+	font-family: "Megrim", cursive;    
     }
     img {
       margin: 30px 10px 30px 10px;
@@ -32,6 +33,7 @@
     @media (max-width: 500px) {
       h1 {
         font-size: 36px;
+	 font-family: "Megrim", cursive;     
         padding: 5px;
       }
       li {
