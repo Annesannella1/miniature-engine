@@ -3,12 +3,11 @@
 	    padding: 20px;
             text-align: center;
 	    background: url("https://annesannella1.github.io/miniature-engine//Anne Sannella.png");
-            bottom: 0;
-            margin: 0;
+            margin: 0 auto;
 	    color: yellow;
     }
     a {
-      color: white;
+      color: yellow;
     }
     h1 {
       font-family: "Megrim", cursive; 
