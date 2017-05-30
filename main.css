@@ -1,17 +1,11 @@
 
    header {
-      text-align: center;
-	   color: rgba(255,255,255,1);
-  background: rgba(0,0,0,1);
-  padding: 10px;
-  line-height: 28px;
-  text-align: justified;
-  position: absolute;
-  bottom: 0;
-  margin: 0;
-      background: url("https://annesannella1.github.io/miniature-engine//Anne Sannella.png");
-      margin: 0 auto;
-      color: yellow;
+	    padding: 10px;
+            text-align: center;
+	    background: url("https://annesannella1.github.io/miniature-engine//Anne Sannella.png");
+            bottom: 0;
+            margin: 0;
+	    color: yellow;
     }
     a {
       color: white;
