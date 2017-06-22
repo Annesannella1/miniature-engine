@@ -8,46 +8,50 @@
     a {
       color: white;
     }
+
     h1 {
       font-family: "Megrim", cursive; 
-      font-size: 70px;
-	   
+      font-size: 70px;	   
     }
+
     img {
       margin: 40px 10px 40px 10px;
       border: 7px solid white;
       border-radius: 20px;
     }
+
     ul {
       padding: 20px;
       background: rgba(0,0,0,0.5);
     }
+
     li {
       display: inline;
       padding: 0px 10px 0px 10px;
     }
+
     article {
       max-width: 500px;
       padding: 20px;
       margin: 0 auto;
-	font-family: "Megrim", cursive;     
+      font-family: "Megrim", cursive;     
     }
+
     @media (max-width: 500px) {
       h1 {
-	    
-        font-size: 36px;
-	     
+	font-size: 36px     
         padding: 5px;
       }
+	    
       li {
         padding: 5px;
         display: block;
       }
-    }
-}
+    }  
+
 	
-}
-    input {
+
+  input {
       border: 0;
       padding: 10px;
       font-size: 18px;
@@ -55,7 +59,7 @@
       color: #666666	    
 	    
     }
-    input[type="submit"] {
+  input[type="submit"] {
       background: #42a1a1;
       color: #666666;
     } 
