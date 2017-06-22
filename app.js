@@ -4,6 +4,8 @@ $(function() {
     window.app = new MyApp();
     window.app.start();
 });
- $("button").on("click", function() {
+
+});
+ $("button").click(function() {
       alert("Clicked!");
     });
