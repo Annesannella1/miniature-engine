@@ -1,1 +1,125 @@
 
+<!DOCTYPE html>
+<head>
+<script src="/assets/jquery.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+<style>
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  background: #232323;
+}
+div {
+  height: 600px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+h1 {
+  font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  font-size: 75px;
+  color: #aaaaaa;
+  margin: 60px 0 0 0;
+}
+h2 {
+  text-align: center;
+  color: #bbbbbb;
+  margin: 0px 0 70px 0;
+}
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+  opacity: 0;
+}
+
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.first{
+  background-image: url("https://annesannella1.github.io/miniature-engine//sugar chest.jpg");
+}
+.second{
+  background-image: url("https://annesannella1.github.io/miniature-engine/il_570xN.519687630_ry84.jpg");
+}
+.dessert{
+  background-image: url("https://annesannella1.github.io/miniature-engine/mid century sofa.jpg");
+}
+.price {
+  float: right;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+
+</style>
+
+</head>
+
+<body>
+<h1>anne's antiques</h1>
+<h2>High Quality Retro</h2>
+<div class="first">
+  <p>Tennessee Sugar Chest<span class="price">$3500</span><br />
+  <small>Tennessee walnut sugar chest, poplar secondary wood, with figured veneered drawer. Dovetailed case, brass escutcheon, and ring turned legs. 28" H x 25 3/4" W x 15 5/8" D. Circa 1830. Possibly East TN, found in Nashville Tennessee. Condition: Excellent. For Pick Up Only in Nashville TN.</small></p>
+</div>
+
+<div class="second">
+  <p>Industrial Stool <span class="price">$179</span><br />
+  <small>Vintage Mid-Century Krueger Steel Industrial Work Stool. in good condition. Not as pictured, mine is distressed in red paint. Mine has a circular seat and base. Condition: good need some screws for back rest.  Pick up Only</small></p>
+</div>
+  
+<div class="dessert">
+  <p>Mid Century Modern Tuxedo Sofa <span class="price">$800</span><br />
+  <small>Solid and Firm. Overall a Gorgeous SOFA that will highlight any Mid Century Decor'. Great Sofa to re-upholster in your choice of fabric or keep as is.  Measurements: 97"L x 34"W x 28"T x 15 1/2"To Seat.</small></p>
+</div>
+
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+
+</body>
+
