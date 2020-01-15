@@ -37,9 +37,11 @@ input {
 <script>
 // List of prompts for the user
 var prompts = [
-	'Type your name',
-	'Type an adjective',
-	'Type a noun'
+	'Type your Proper Noun',
+	'Type an Adjective',
+	'Type your Favorite Food',
+	'How about another Adjective?',
+	'Type your Favorite Pet',
    ];
 
 var answers=[];
@@ -66,9 +68,22 @@ var nextPrompt = function() {
 	}
 }
 
-//puts user answers into HTML
-var showFinal = function() {
-  $('.prompt').html('This is the story of <span class="fill">'+answers[0]+'</span> and the <span class="fill">'+answers[1]+'</span> <span class="fill">'+answers[2]+'</span>.');
+//puts user answers into HTML 
+	
+
+ 	
+//Hot Miami Styles knows sexy heels, shoes and boots
+//Shoes are a women's passion. We have the most affordable and designer inspired shoes and heels. From your fancy high heeled pumps perfect for cocktail parties and clubs to the street wear boots. The higher the heel the closer to heaven is what we heard so we like to make some extra high heels. Every shoe that you love including strappy heels, peep toe styles, pointy toe boots, denim boots, faux leather boots, chain heels, sexy lace up heels and more. Neutral and black heels are upon are faves for every day. A thigh high boot in suede and faux leather is a fashionista's dream. Studded shoes and heels are always a win for some style points for any event including your birthday and holidays. We can never forget a sequin heel or boots that is
+//perfect for
+//your fancy occasions such as New Years Eve. The newest style and trends are what we are always looking for like the current transparent and clear heels with some mesh details. We
+//are sure when you wear HotMiamiStyles everyone will ask where did you those sexy shoes and they will not know how cheap and affordable those shoes really were.
+//
+var showFinal = function() 
+  $('.prompt').html('Hot Miami <span class="fill">'+answers[0]+
+		    '</span> knows <span class="fill">'+answers[1]+
+		    '</span> heels, shoes and <span class="fill">'+answers[2]+
+		    '</span>.  Shoes are a  ')<span class="fill">'+answers[3]+
+	             <span class="fill">'+answers[4];
  
   $('button').hide();
 }
