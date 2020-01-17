@@ -62,13 +62,13 @@ var nextPrompt = function() {
 		$('.prompt').html(prompts[currentPrompt] +'<br><input type="text">');
 		// move the next prompt into variable currentPrompt 
 		currentPrompt = currentPrompt + 1;
-		//window.alert(currentPrompt);
+		window.alert(currentPrompt);
 	}
 	//or else if we're at the end of the array
 	else {
 		// put a new message into the html.
 		showFinal();
-		window.alert(showFinal);
+		//window.alert(showFinal);
 	}
 }
 
